@@ -4,7 +4,7 @@ function highlight() {
 	link.addEventListener("mouseover",()=>{
 		const strongs=document.querySelectorAll("strong");
 		strongs.forEach((strong)=>{
-			strong.style.color="green";
+			strong.style.color="rgb(0, 128, 0)";
 		})
 	})
 
@@ -13,7 +13,7 @@ function return_normal() {
     //Write your code here
 	const strongs=document.querySelectorAll("strong");
 		strongs.forEach((strong)=>{
-			strong.style.color="black";
+			strong.style.color="rgb(0,0,0)";
 		})
     
 }
