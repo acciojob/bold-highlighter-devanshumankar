@@ -11,9 +11,12 @@ function highlight() {
 }
 function return_normal() {
     //Write your code here
-	const strongs=document.querySelectorAll("strong");
+	const link=document.querySelector("a");
+	link.addEventListener("mouseout",()=>{
+		const strongs=document.querySelectorAll("strong");
 		strongs.forEach((strong)=>{
-			strong.style.color="rgb(0,0,0)";
+			strong.style.color="rgb(0, 0, 0)";
 		})
+	})
     
 }
